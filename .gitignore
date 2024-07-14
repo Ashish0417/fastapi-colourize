@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+flower_generator_color_landscape_16_epochs.h5
+generator_color_landscape_4_epochs.h5
+generator_color_landscape_20_epochs.h5
+
 # Virtual environment
 env/
 venv~/
