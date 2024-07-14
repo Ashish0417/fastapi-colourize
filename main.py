@@ -51,6 +51,6 @@ async def file_upload(file : UploadFile = File(...)):
     return Response(content=img_byte.getvalue(),media_type="image/jpeg")
     # return {"file ": gen_image.shape}
 
-if __name__ == '__main__':
-    uvicorn.run(app,port=8000)
+# if __name__ == '__main__':
+#     uvicorn.run(app,port=8000)
     
